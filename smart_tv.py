@@ -2,14 +2,18 @@ from device import Device
 
 
 class SmartTV(Device):
+
+        def __init__(self):
+            self.power: bool = False
+
         def is_enabled(self):
-            pass
+            return self.power
 
         def enabled(self):
-            pass
+            self.power = True
 
         def disable(self):
-            pass
+            self.power = False
 
         def get_volumen(self):
             pass

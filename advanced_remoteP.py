@@ -7,7 +7,7 @@ class AdvancedRemoteP(Remote):
 
     def open_netflix(self):
         pass
-
+    
     def open_amazon(self):
         pass
 
