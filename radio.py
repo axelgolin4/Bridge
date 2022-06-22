@@ -10,22 +10,26 @@ class Radio(Device):
 
 
     def is_enabled(self):
-        return self.power
-
+            return self.power
+        
     def enabled(self):
         self.power = True
+        print("La Radios esta: " + self.power)
 
     def disable(self):
         self.power = False
+        print("La Radios esta: " + self.power)
 
     def get_volumen(self):
         return self.volumen
 
     def set_volumen(self, vol):
         self.volumen = vol
+        print("el Volumen es: " + self.volumen)
 
     def get_channel(self):
         return self.chanel
 
     def set_channel(self, chal):
         self.chanel = chal
+        print("el Canal es: " + self.chanel)

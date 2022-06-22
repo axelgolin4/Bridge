@@ -33,11 +33,11 @@ class AdvancedRemoteP(Remote):
         self.device.set_volumen(a)
 
     def open_netflix(self):
-        pass
-    
+        self.device.set_Netflix()
+            
     def open_amazon(self):
-        pass
+        self.device.set_Amazon()
 
     def open_youtube(self):
-        pass
+        self.device.set_Youtube()
 
