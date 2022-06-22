@@ -6,21 +6,19 @@ class Remote:
         self.device: Device = device
 
     def toggle_power(self):
-        a = self.device.is_enabled()
-        if a == True:
-            self.device.enabled()
-        else:
-            self.device.disable()
+        raise NotImplementedError
             
     def volumen_down(self):
-        pass
+        raise NotImplementedError
 
     def volumen_up(self):
-        pass
+        raise NotImplementedError
 
     def channel_down(self):
-        pass
+       raise NotImplementedError
 
     def channel_up(self):
-        pass
+        raise NotImplementedError
+
+    
 
